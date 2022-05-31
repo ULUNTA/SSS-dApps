@@ -6,11 +6,6 @@ const XYM_ID = '3A8416DB2D53B6C8'
 const NODE_URL = 'https://sym-test.opening-line.jp:3001'
 const NET_TYPE = symbol.NetworkType.TEST_NET
 
-const address = symbol.Address.createFromRawAddress("TAEWJW46ASULR4RSFZD7CIQ3UQZQJGT46QTNNMY")
-
-console.log("Hello Symbol")
-console.log(`Your Address : ${address.plain()}`)
-
 const repositoryFactory = new symbol.RepositoryFactoryHttp(NODE_URL)
 const accountHttp = repositoryFactory.createAccountRepository()
 const transactionHttp = repositoryFactory.createTransactionRepository()
