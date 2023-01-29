@@ -3,7 +3,7 @@ const symbol = require('/node_modules/symbol-sdk')
 const GENERATION_HASH = '49D6E1CE276A85B70EAFE52349AACCA389302E7A9754BCF1221E79494FC665A4'
 const EPOCH = 1667250467
 const XYM_ID = '72C0212E67A08BCE'
-const NODE_URL = 'https://sym-test-04.opening-line:3001'
+const NODE_URL = 'https://sym-test-04.opening-line.jp:3001'
 const NET_TYPE = symbol.NetworkType.TEST_NET
 
 const repositoryFactory = new symbol.RepositoryFactoryHttp(NODE_URL)
